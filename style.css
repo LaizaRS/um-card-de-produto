@@ -1,0 +1,134 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-color: #D9CDF7;
+}
+
+p{
+color: #271A45;
+font-weight: 300;
+font-size: 12px;
+font-family: 'Lato', sans-serif;
+}
+
+h1{
+margin-top: 2%;
+color: #271A45;
+font-weight: 600;
+font-size: 34px;
+font-family: 'Crimson Pro', serif;
+}
+
+h2{
+margin-top: 1%;
+color: #271a45ad;
+font-weight: 400;
+font-size: 18px;
+font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  
+}
+
+#information{
+margin: auto;
+margin-top: 250px;
+width: 281px;
+height: 222.96px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+#product > div{
+width: inherit;
+height: inherit;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+
+#product{
+margin: auto;
+margin-top: 250px;
+width: 460px;
+height: 230px;
+position: relative;
+}
+
+#product .sofa{
+background: url('img/image 2.png') no-repeat;
+width: 449px;
+height: 222.96px;
+display: block;
+
+}
+
+#product .sofaGif{
+background: url('img/gif.gif') no-repeat;
+background-size: cover;
+width: 449px;
+height: 222.96px;
+display: none;
+}
+
+
+.vetor{
+perspective: 1000px;
+}
+
+#product .vetor{
+width: 33px;
+height: 22.47px;
+margin: auto;
+padding-left: 415px;
+}
+
+.imagem {
+position: absolute;
+background-size: cover;
+background-position: center;
+}
+
+#product .vetor .rotacao{
+background-image: url('img/girar.png');
+z-index: 1;
+width: inherit;
+height: inherit;
+display: block;
+}
+
+
+#product .vetor .fechar{
+background-image: url('img/fechar.png');
+z-index: 2;
+width: 16px;
+height: 16px;
+display: none;
+}
+
+
+
+button{
+margin-top: 2%;
+width: 148px;
+height: 32px;
+border: 1px solid #271A45;
+border-radius: 15px;
+font-family: 'Lato', sans-serif;
+
+cursor: pointer;
+}
+
+button:hover{
+background: #271a452d;
+}
