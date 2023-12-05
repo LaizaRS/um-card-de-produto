@@ -1,7 +1,7 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,10 +19,10 @@ body {
 }
 
 .descricao h4{
-font-size: 10px;
-margin: 10px;
-font-family: 'Lato', sans-serif;
-font-weight: 300;
+    font-size: 10px;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .descricao h3{
@@ -65,7 +65,7 @@ font-weight: 300;
 }
 
 .grupo1 {
-display: block;
+    display: block;
 }
 
 .grupo2 {
